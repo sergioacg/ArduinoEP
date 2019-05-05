@@ -21,7 +21,7 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
- //Ascende os LEDs da esquierda para Direita
+ //Ascende os LEDs da esquerda para Direita
   for(i=led1;i<=led8;i++){
     digitalWrite(i,HIGH); //Ascende o LED
     delay(vel);           //Atraso (Espera o valor de vel)
@@ -39,7 +39,7 @@ void loop() {
   delay(1000);     //Atraso de 1000ms (1 segundo)
 
   //Ascende os LEDs desde o MEIO até os LADOS
-  for(i=6;i<=8;i++){
+  for(i=6;i<=9;i++){
     digitalWrite(i,LOW);
     digitalWrite(i+1,HIGH);
     digitalWrite(11-i,LOW);
