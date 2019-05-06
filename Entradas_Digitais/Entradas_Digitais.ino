@@ -28,7 +28,7 @@ void setup() {
 void loop() {
   //Se "valor" é Zero gire para direita
   if(valor==0){
-   //Configura os 8 Pinos digitais como SAIDAS
+   //Ascende os LEDs da Esquerda a Direita
     for(i=led1;i<=led8+3;i++){
       if(i<=led8){
         digitalWrite(i,HIGH); //Ascende o LED
@@ -51,7 +51,7 @@ void loop() {
 
   //Se "valor" é Zero gire para ESQUERDA
   if(valor==1){
-   //Ascende os LEDs da Esquerda a Direita
+   //Ascende os LEDs da Direita a Esquerda 
     for(i=led8;i>=led1-3;i--){
       if(i>=led1){
         digitalWrite(i,HIGH); //Ascende o LED
@@ -62,7 +62,7 @@ void loop() {
       }
       delay(vel);           //Atraso (Espera o valor de vel)
 
-      //Lee los dos pulsadores
+      //Le os dois botoes
       if(digitalRead(Pizq)){
         valor=1;i=led1-3; //Cambia o valor e sai do FOR
       }
