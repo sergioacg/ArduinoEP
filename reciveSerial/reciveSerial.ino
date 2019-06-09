@@ -1,15 +1,16 @@
+//Criamos a variável contador
 int contador=0;
  
 void setup(){
-  //Configuramos el puerto serie
+  //Configuramos o porto serie
   Serial.begin(9600);
 }
  
 void loop(){
-  //Imprimimos el valor del contador en el monitor serial
+  //Imprimimos o valor do contador no monitor serial
   Serial.print("Contador: ");
   Serial.println(contador);  
-  //incrementamos el contador y esperamos un medio segundo
+  //incrementamos o contador e esperamos meio segundo
   contador++;
   delay(500);
 }
