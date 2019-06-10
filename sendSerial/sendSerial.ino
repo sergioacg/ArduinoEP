@@ -43,7 +43,7 @@ void setup(){
 void loop(){
   //se existe dados disponiveis no barramento serial
   if (Serial.available()){
-    //lemos o daoo enviado
+    //lemos o dado enviado
     dado=Serial.read();
     if(dado=='l') { //letra   l - ligar
       digitalWrite(led, HIGH);
