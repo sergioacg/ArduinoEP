@@ -2,7 +2,7 @@
 
 #include <LiquidCrystal.h>         
  
-LiquidCrystal lcd(10, 8, 5, 4, 3, 2); //(RS, E, D4,D5, D6, D7)
+LiquidCrystal lcd(10, 9, 8, 5, 4, 3, 2); //(RS, RW, E, D4,D5, D6, D7)
  
 void setup()
 {
