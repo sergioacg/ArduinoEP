@@ -24,15 +24,15 @@ void setup() {
 void loop() {
   
   //Leitura do Pino A0 (ADC)
-  value=analogRead(LM35); // Armazena o valor inteiro.
+  //value=analogRead(LM35); // Armazena o valor inteiro.
   //Converte o valor inteiro em Temperatura
-  temperatura=(value*5/1023.0) / 0.010;
+ // temperatura=(value*5/1023.0) / 0.010;
   
-  //temperatura = (float(analogRead(LM35))*5/1023)/0.01;     //LM35
+  temperatura = (float(analogRead(LM35))*5/1023)/0.01;     //LM35
   //temperatura = (float(analogRead(LM35))*5/1023-0.5)/0.01; //TMP36
 
   lcd.setCursor(7,1);
   lcd.print(temperatura);   // Escreve no LCD
-  lcd.print(" C");
+  lcd.print(" C    ");
   delay(1000);
 }
