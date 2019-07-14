@@ -13,8 +13,8 @@ LiquidCrystal lcd(10, 8, 5, 4, 3, 2); //(RS, E, D4,D5, D6, D7)
 //Função que será executada uma vez quando ligar ou resetar o Arduino
 void setup() {
  lcd.begin(16, 2);   // Inicia o LCD 16x02 (colunas,linhas)
- analogReference (DEFAULT);    //Referencia analógica default (5v ou 3.3v)
- //analogReference (EXTERNAL); //Referencia analógica do pino AREF
+ //analogReference (DEFAULT);    //Referencia analógica default (5v ou 3.3v)
+ analogReference (EXTERNAL); //Referencia analógica do pino AREF
 } 
  
 //Função que será executada continuamente
@@ -23,8 +23,8 @@ void loop() {
   //Leitura do Pino A3 (ADC)
   value=analogRead(POT); // Armazena o valor inteiro.
   //Converte o valor inteiro em Tensão
-  //volt=(value*3.3/1023.0);
-  volt=(value*5/1023.0);
+  volt=(value*3.3/1023.0);
+  //volt=(value*5/1023.0);
 
   //Visualiza no LCD
   lcd.home();         // Coloca el cursor en las coordenadas (0,0)
