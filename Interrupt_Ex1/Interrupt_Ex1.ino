@@ -6,7 +6,7 @@ byte led = 12;
 volatile int ISR_Cont = 0; //Variável da interrupção deve ser volatile
 int Cont = 0;
 
-const int Banda = 150;
+const int Banda = 250;
 long Time = 0;
  
 void setup()
@@ -43,7 +43,7 @@ void InterContador()
   // Aumenta o Contador
   ISR_Cont++;
   
-  /* //// Debounce 
+   /*/// Debounce 
    if (millis() - Time > Banda)
    {
       ISR_Cont++;
