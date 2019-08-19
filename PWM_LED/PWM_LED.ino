@@ -8,5 +8,5 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
-  analogWrite(LED,analogRead(POT));
+  analogWrite(LED,analogRead(POT)/4);
 }
