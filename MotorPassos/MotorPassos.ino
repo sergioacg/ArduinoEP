@@ -75,7 +75,7 @@ void loop() {
   // Giro no Sentido Horario
   if(digitalRead(PHorario))  // Pergunta se o botão horario foi presionado
   {
-    delay(100); //Anti-Rebote
+    delay(100); //debounce
     horario=1;
     Cpasso=-1;
   }
@@ -83,7 +83,7 @@ void loop() {
   // Giro no Sentido Anti-Horario
   if(digitalRead(PAntiHorario))  // Pergunta se o botão antihorario foi presionado
   {
-    delay(100); //Anti-Rebote
+    delay(100); //debounce
     horario=0;
     Cpasso=passo;
   }
