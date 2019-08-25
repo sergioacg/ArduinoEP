@@ -1,4 +1,4 @@
-#define LED 3 // PIN 13 as LED
+#define LED 3 // PIN 3 as LED
 const int POT = A0; //Potenciometro
 
 void setup() {
