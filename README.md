@@ -24,11 +24,17 @@ Para a realização do curso, não é obrigatório possuir a placa do Arduino ou
 
 ### EMENTA
 •	Introdução ao Arduino: componentes e partes físicas, instalação do IDE em Windows, familiarização com o ambiente virtual de simulação;
+
 •	Uso das entradas e saídas digitais do Arduino: sequência de luzes, leitura de interruptores, movimentação de motores, visualização de dados em display 7 segmentos;
+
 •	Interrupções e temporizadores em Arduino;
+
 •	Uso de periféricos no Arduino: teclados matriciais, LCD 16x2, memórias, servomotores;
+
 •	Uso das entradas analógicas e saídas PWM no Arduino;
+
 •	Comunicação com Arduino;
+
 •	Aplicações de engenheira no Arduino.
 
 ### RESUMO
