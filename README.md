@@ -4,7 +4,7 @@ Neste repositorio, você poderá encontrar todos os códigos que a gente vai a a
 
 Você pode ter acesso ao curso no Seguinte LINK:
 
-## :tw-1f449: :tw-1f449: :tw-1f449:  **[CURSO DE ARDUINO DO ZERO](https://www.udemy.com/course/curso-de-programacao-de-arduino/?referralCode=7B30F44E1B136BAD5DAE "CURSO DE ARDUINO DO ZERO")**
+## >>>>>  **[CURSO DE ARDUINO DO ZERO](https://www.udemy.com/course/curso-de-programacao-de-arduino/?referralCode=7B30F44E1B136BAD5DAE "CURSO DE ARDUINO DO ZERO") <<<<<**
 
 
 
