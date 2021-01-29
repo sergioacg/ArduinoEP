@@ -18,9 +18,11 @@ Você pode ter acesso ao curso no Seguinte LINK:
 Para a realização do curso, não é obrigatório possuir a placa do Arduino ou os seus componentes, dado que o curso será realizado num ambiente virtual gratuito e livre. Onde cada aluno poderá criar e programar suas aplicações. Paralelamente, algumas aplicações serão mostradas na placa real pelo professor.
 
 
-###PRÉ-REQUISITOS
+### PRÉ-REQUISITOS
 •	Ter noções básicas de programação em qualquer linguagem.
-EMENTA
+
+
+### EMENTA
 •	Introdução ao Arduino: componentes e partes físicas, instalação do IDE em Windows, familiarização com o ambiente virtual de simulação;
 •	Uso das entradas e saídas digitais do Arduino: sequência de luzes, leitura de interruptores, movimentação de motores, visualização de dados em display 7 segmentos;
 •	Interrupções e temporizadores em Arduino;
@@ -29,8 +31,10 @@ EMENTA
 •	Comunicação com Arduino;
 •	Aplicações de engenheira no Arduino.
 
-###RESUMO
+### RESUMO
 Este curso introdutório é focado em pessoas que querem se aproximar ao mundo do Arduino pela primeira vez. O foco do curso está no Arduino mais do que na eletrônica, pelo tanto não é necessário que o aluno saiba de eletrônica. Esse treinamento visa capacitar o aluno a aprender o Arduino, que é uma plataforma de prototipagem de hardware livre com uma linguagem de programação padrão, a qual tem origem em Wiring, e é essencialmente C/C++. O objetivo do projeto é criar ferramentas que são acessíveis, com baixo custo, flexíveis e fáceis de se usar por profissionais e amadores.
-###CARGA HORÁRIA
+
+
+### CARGA HORÁRIA
 12 horas
 
